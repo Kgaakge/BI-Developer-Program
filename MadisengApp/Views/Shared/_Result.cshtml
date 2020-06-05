@@ -1,0 +1,12 @@
+﻿
+@if (TempData["Pass"] != null)
+{
+    <div class="alert alert bg-success">@TempData["Pass"]</div>
+}
+
+@if (TempData["Fail"] != null)
+{
+    <div class="alert alert bg-danger">@TempData["Fail"]</div>
+}
+
+
